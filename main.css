@@ -1,0 +1,321 @@
+/*-- basic --*/
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.5px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1236px;
+}
+
+/*-- 1. nav --*/
+
+.nav1,
+.p {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav-dropdown {
+  color: white !important;
+}
+
+.nav-dropdown:hover {
+  background-color: #00539f !important;
+}
+
+.box-nav {
+  transition: all 0.1s ease-in-out;
+}
+
+.box-nav:hover {
+  background-color: #1085e4;
+  text-decoration: underline;
+}
+
+.nav-btn {
+  color: white;
+  font-size: 14px !important;
+  font-weight: 600;
+  text-transform: none;
+  box-shadow: none;
+}
+
+.nav-btn:hover {
+  box-shadow: none;
+  color: white;
+}
+
+/*-- nav2 --*/
+
+.nav2 {
+  color: white;
+  border-radius: 20px;
+}
+
+.input-group-text {
+  background-color: #00539f;
+  border-radius: 50%;
+}
+
+.btn-kosar {
+  background: #00539f;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  z-index: -1;
+}
+
+.count-notif {
+  vertical-align: middle;
+  margin-left: -15px;
+  margin-top: -20px;
+  font-size: 11px;
+}
+
+
+/*-- nav3 --*/
+
+.nav3 {
+  max-width: 1236px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav3-ikon {
+  color: #00539f
+}
+
+
+/*-- 1. carousel --*/
+
+.swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23FFFFFF'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23FFFFFF'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+/*-- 1. carousel mobil felejt --*/
+
+.btnprev-swiperfelejt {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23FFFFFF'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.btnnext-swiperfelejt {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23FFFFFF'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.felejt-img1 {
+  background: url('https://tesco.hu/img/tescoce_hu/carousel/tablet/HU🇭🇺_Corporate_Banner_Mobile_731x200%20(10).jpg');
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.felejt-img2 {
+  background: url('https://tesco.hu/img/tescoce_hu/carousel/tablet/2019/halfpanel_mobile_731x200_mag_osz.jpg');
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.felejt-img3 {
+  background: url('https://tesco.hu/img/tescoce_hu/carousel/tablet/2019/halfpanel_mobile_731x200_FFF.png');
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+
+.swiperfelejt h1 {
+  color: white !important;
+}
+
+.swiperfelejt p {
+  color: white;
+}
+
+.btn-felejt {
+  background-color: white;
+  color: #00539f;
+  text-transform: none;
+  border-radius: 20px;
+  padding: 8px;
+  width: 200px;
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+.btn-osz {
+  background-color: white;
+  color: orange;
+  text-transform: none;
+  border-radius: 20px;
+  font-size: 15px !important;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+/*-- 2. carousel és carousel gombok --*/
+
+.swiperbtn {
+  color: #00539f;
+  text-transform: none;
+  padding: 8px;
+  width: 200px;
+  font-size: 15px !important;
+  font-weight: 600;
+  box-shadow: none;
+  border: 2px solid #00539f;
+  border-radius: 20px;
+  transition: all 0.15s ease-in-out;
+}
+
+.swiperbtn:hover {
+  color: #00539f;
+  text-decoration: underline;
+  box-shadow: 1px 1px 1px 1px #1085e4;
+}
+
+.swiper2 {
+  border-radius: 10px;
+}
+
+.swiperbtnprev-2 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%2300539f'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.swiperbtnnext-2 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%2300539f'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.swiper2-item {
+  background-color: white;
+  border: 1px solid lightgrey;
+  transition: all 0.15s ease-in-out;
+}
+
+.swiper2-item:hover {
+  border: 1px solid #1085e4;
+}
+
+.swiper2,
+.p {
+  color: black;
+  font-weight: 500;
+}
+
+/*--- 3. carousel ---*/
+
+.swiper3-img {
+  margin-top: 10px;
+  max-width: 170px;
+  max-height: 300px;
+}
+
+.swiper3item-2 {
+  font-weight: 500;
+}
+
+.swiperbtnprev-3 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%2300539f'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.swiperbtnnext-3 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%2300539f'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+/*--- feliratkozás ---*/
+
+.btn-feliratkozas {
+  color: white;
+  text-transform: none;
+  padding: 8px;
+  width: 200px;
+  font-size: 15px !important;
+  font-weight: 600;
+  box-shadow: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-feliratkozas:hover {
+  color: white;
+  text-decoration: underline;
+  box-shadow: 1px 1px 1px 1px white;
+}
+
+/*--- kártyák ---*/
+
+.card-box {
+  color: #00539f;
+  height: 100%;
+  background: white;
+}
+
+.green-card {
+  width: 100%;
+  height: 6px;
+  background-color: #0c7e67;
+}
+
+.btn-card {
+  background-color: #00539f;
+  color: white;
+  text-transform: none;
+  padding: 8px;
+  width: 200px;
+  font-size: 15px !important;
+  font-weight: 600;
+  box-shadow: none;
+  border-radius: 20px;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-card:hover {
+  color: white;
+  text-decoration: underline;
+  box-shadow: 1px 1px 1px 1px #1085e4;
+}
+
+/*--- footer ---*/
+
+.fa-facebook {
+  color: #00539f;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-pinterest {
+  color: red;
+}
+
+.fa-instagram {
+  color: deeppink;
+}
+
+.btn-link {
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: none;
+}
+
+
+
+
+
